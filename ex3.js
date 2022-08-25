@@ -6,3 +6,20 @@
 // Ex.: entrada - arrayA[2,3,4,8,1] arrayB[7,4,1,6,8]
 // saída - arrayC[3,4,8,1]
 
+arrayA = []
+arrayB = []
+index = parseInt(0)
+continuar = true
+
+while(continuar == true){
+    // arrayA
+    num = prompt("Insira um número")
+    arrayA[index] = num
+    index++
+    parar = prompt("Insira 1 para não inserir mais números")
+    if(parar == 1){
+        continuar = false
+    }
+}
+
+console.log(arrayA)
