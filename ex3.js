@@ -22,4 +22,10 @@ while(continuar == true){
     }
 }
 
+for (index = 0; index < arrayA.length; index++){
+    num = prompt("Insira um número")
+    arrayB[index] = num
+}
+
 console.log(arrayA)
+console.log(arrayB)
